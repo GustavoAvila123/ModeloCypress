@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="24.915" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-02-04T20:03:55" tests="0" file="cypress\e2e\1-getting-started\pagina_execucao\01-login.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="LOGIN" timestamp="2025-02-04T20:03:55" tests="7" time="24.911" failures="0">
+    <testcase name="LOGIN 1.1 - Login efetuado com Sucesso" time="14.961" classname="1.1 - Login efetuado com Sucesso">
+    </testcase>
+    <testcase name="LOGIN 1.2 - Login com usuário não cadastrado" time="2.756" classname="1.2 - Login com usuário não cadastrado">
+    </testcase>
+    <testcase name="LOGIN 1.3 - Login com senha inválida" time="1.905" classname="1.3 - Login com senha inválida">
+    </testcase>
+    <testcase name="LOGIN 1.4 - Login sem preencher usuário" time="1.281" classname="1.4 - Login sem preencher usuário">
+    </testcase>
+    <testcase name="LOGIN 1.5 - Login sem preencher a senha" time="1.378" classname="1.5 - Login sem preencher a senha">
+    </testcase>
+    <testcase name="LOGIN 1.6 - Login sem preencher o usuário e a senha" time="0.522" classname="1.6 - Login sem preencher o usuário e a senha">
+    </testcase>
+    <testcase name="LOGIN 1.7 - Login com o usuário bloqueado/inativo" time="1.705" classname="1.7 - Login com o usuário bloqueado/inativo">
+    </testcase>
+  </testsuite>
+</testsuites>

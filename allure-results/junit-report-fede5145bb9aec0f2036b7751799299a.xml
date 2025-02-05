@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="141.451" tests="10" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-02-04T13:43:58" tests="0" file="cypress\e2e\1-getting-started\pagina_execucao\02-comunicados.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="COMUNICADOS" timestamp="2025-02-04T13:43:58" tests="10" time="141.445" failures="2">
+    <testcase name="COMUNICADOS 2.1 - PREENCHE TODOS OS CAMPOS OBRIGATÓRIOS E ENVIA O COMUNICADO COM SUCESSO" time="0.000" classname="2.1 - PREENCHE TODOS OS CAMPOS OBRIGATÓRIOS E ENVIA O COMUNICADO COM SUCESSO">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Estado *&apos; within the selector: &apos;.title&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Estado *' within the selector: '.title' but never did.
+    at Metodos.selecionarOpcaoPorTitulo (webpack://cypress/./cypress/e2e/1-getting-started/pagina_acao/metodos.js:68:11)
+    at Context.eval (webpack://cypress/./cypress/e2e/1-getting-started/pagina_execucao/02-comunicados.cy.js:72:16)]]></failure>
+    </testcase>
+    <testcase name="COMUNICADOS 2.2 - TENTAR ENVIAR COMUNICADO SEM SELECIONAR UM DEPARTAMENTO OU REALIZAR O UPLOAD DE UMA IMAGEM DE CAPA COM FORMATOS VÁLIDOS (PNG, JPEG, JPG)" time="0.000" classname="2.2 - TENTAR ENVIAR COMUNICADO SEM SELECIONAR UM DEPARTAMENTO OU REALIZAR O UPLOAD DE UMA IMAGEM DE CAPA COM FORMATOS VÁLIDOS (PNG, JPEG, JPG)">
+      <failure message="Esperado que o texto &quot;Carregando imagem&quot; inclua &quot;Sucesso ao salvar imagem de capa&quot;: expected false to be true" type="AssertionError"><![CDATA[AssertionError: Esperado que o texto "Carregando imagem" inclua "Sucesso ao salvar imagem de capa": expected false to be true
+    at captureUserInvocationStack (https://dev.radar.farmarcas.com.br/__cypress/runner/cypress_runner.js:138199:94)
+    at Assertion.assert (https://dev.radar.farmarcas.com.br/__cypress/runner/cypress_runner.js:138227:9)
+    at Assertion.<anonymous> (https://dev.radar.farmarcas.com.br/__cypress/runner/cypress_runner.js:79458:10)
+    at Assertion.propertyGetter (https://dev.radar.farmarcas.com.br/__cypress/runner/cypress_runner.js:77567:29)
+at Reflect.get (<anonymous>)
+    at Object.proxyGetter [as get] (https://dev.radar.farmarcas.com.br/__cypress/runner/cypress_runner.js:77851:22)
+    at Context.eval (webpack://cypress/./cypress/e2e/1-getting-started/pagina_acao/metodos.js:35:24)
+    at getRet (https://dev.radar.farmarcas.com.br/__cypress/runner/cypress_runner.js:118320:20)
+    at tryCatcher (https://dev.radar.farmarcas.com.br/__cypress/runner/cypress_runner.js:1777:23)
+    at Promise.attempt.Promise.try (https://dev.radar.farmarcas.com.br/__cypress/runner/cypress_runner.js:4285:29)]]></failure>
+    </testcase>
+    <testcase name="COMUNICADOS 2.3 - VERIFICAR A FUNCIONALIDADE DO BOTÃO DE FECHAR E EXPANDIR A CAIXA DE CONTEÚDO E VALIDAR SE A CAIXA SE ADAPTA CORRETAMENTE AO SER FECHADA OU EXPANDIDA" time="6.411" classname="2.3 - VERIFICAR A FUNCIONALIDADE DO BOTÃO DE FECHAR E EXPANDIR A CAIXA DE CONTEÚDO E VALIDAR SE A CAIXA SE ADAPTA CORRETAMENTE AO SER FECHADA OU EXPANDIDA">
+    </testcase>
+    <testcase name="COMUNICADOS 2.4 - SELECIONAR UM DEPARTAMENTO E VALIDAR SE A SELEÇÃO É REGISTRADA CORRETAMENTE" time="6.035" classname="2.4 - SELECIONAR UM DEPARTAMENTO E VALIDAR SE A SELEÇÃO É REGISTRADA CORRETAMENTE">
+    </testcase>
+    <testcase name="COMUNICADOS 2.5 - SELECIONAR TODOS OS DEPARTAMENTOS E VALIDAR SE AS SELEÇÕES ESTÃO REGISTRADAS CORRETAMENTE" time="6.034" classname="2.5 - SELECIONAR TODOS OS DEPARTAMENTOS E VALIDAR SE AS SELEÇÕES ESTÃO REGISTRADAS CORRETAMENTE">
+    </testcase>
+    <testcase name="COMUNICADOS 2.6 - REALIZAR UPLOAD DE IMAGEM DE CAPA COM TAMANHO SUPERIOR A 2MB E VERIFICAR AS DIMENSÕES MÍNIMAS RECOMENDADAS PARA A IMAGEM DE CAPA" time="10.628" classname="2.6 - REALIZAR UPLOAD DE IMAGEM DE CAPA COM TAMANHO SUPERIOR A 2MB E VERIFICAR AS DIMENSÕES MÍNIMAS RECOMENDADAS PARA A IMAGEM DE CAPA">
+    </testcase>
+    <testcase name="COMUNICADOS 2.7 - INSERIR UM TÍTULO DO COMUNICADO COM MAIS DE 100 CARACTERES E VERIFICAR MENSAGEM DE ERRO, ALÉM DE VALIDAR A CONTAGEM DE CARACTERES VISÍVEL NO CAMPO DE CONTEÚDO DO COMUNICADO" time="10.054" classname="2.7 - INSERIR UM TÍTULO DO COMUNICADO COM MAIS DE 100 CARACTERES E VERIFICAR MENSAGEM DE ERRO, ALÉM DE VALIDAR A CONTAGEM DE CARACTERES VISÍVEL NO CAMPO DE CONTEÚDO DO COMUNICADO">
+    </testcase>
+    <testcase name="COMUNICADOS 2.8 -  INSERIR CONTEÚDO DO COMUNICADO COM MAIS DE 2000 CARACTERES E VERIFICAR MENSAGEM DE ERRO" time="60.052" classname="2.8 -  INSERIR CONTEÚDO DO COMUNICADO COM MAIS DE 2000 CARACTERES E VERIFICAR MENSAGEM DE ERRO">
+    </testcase>
+    <testcase name="COMUNICADOS 2.9 - REALIZAR MÚLTIPLOS UPLOADS DE ANEXOS E VERIFICAR SE TODOS SÃO REGISTRADOS CORRETAMENTE" time="7.955" classname="2.9 - REALIZAR MÚLTIPLOS UPLOADS DE ANEXOS E VERIFICAR SE TODOS SÃO REGISTRADOS CORRETAMENTE">
+    </testcase>
+    <testcase name="COMUNICADOS 2.10 - TENTAR ANEXAR ARQUIVOS COM FORMATOS INVÁLIDOS E VERIFICAR MENSAGENS DE ERRO" time="8.647" classname="2.10 - TENTAR ANEXAR ARQUIVOS COM FORMATOS INVÁLIDOS E VERIFICAR MENSAGENS DE ERRO">
+    </testcase>
+  </testsuite>
+</testsuites>

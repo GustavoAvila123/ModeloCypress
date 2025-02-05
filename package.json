@@ -1,0 +1,24 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "Cypress open",
+    "test": "cypress run --browser chrome --env allure=true --env video=true && allure generate allure-results --clean && allure open",
+    "report": "allure generate ./allure-results -o allure-report/ --clean && allure open allure-report"    
+  },
+  "keywords": [],
+  "author": "Gustavo Soares de Ávila",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.32.0",
+    "cypress": "^14.0.0"
+  },
+  "dependencies": {
+    "allure-commandline": "2.24.1",
+    "aws4": "1.11.0",
+    "axios": "1.2.0",
+    "yarn": "1.22.19"
+  }
+}

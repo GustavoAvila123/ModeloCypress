@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.440" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-01-30T02:37:34" tests="0" file="cypress\e2e\1-getting-started\pagina_execucao\login.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="LOGIN" timestamp="2025-01-30T02:37:34" tests="7" time="28.433" failures="1">
+    <testcase name="LOGIN 1.1 - Login efetuado com Sucesso" time="0.000" classname="1.1 - Login efetuado com Sucesso">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `.header &gt; h3`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `.header > h3`, but never found it.
+    at Metodos.validarTexto (webpack://cypress/./cypress/e2e/1-getting-started/pagina_acao/metodos.js:25:11)
+    at Context.eval (webpack://cypress/./cypress/e2e/1-getting-started/pagina_execucao/login.cy.js:25:16)]]></failure>
+    </testcase>
+    <testcase name="LOGIN 1.2 - Login com usuário não cadastrado" time="3.566" classname="1.2 - Login com usuário não cadastrado">
+    </testcase>
+    <testcase name="LOGIN 1.3 - Login com senha inválida" time="3.273" classname="1.3 - Login com senha inválida">
+    </testcase>
+    <testcase name="LOGIN 1.4 - Login sem preencher usuário" time="0.808" classname="1.4 - Login sem preencher usuário">
+    </testcase>
+    <testcase name="LOGIN 1.5 - Login sem preencher a senha" time="0.889" classname="1.5 - Login sem preencher a senha">
+    </testcase>
+    <testcase name="LOGIN 1.6 - Login sem preencher o usuário e a senha" time="0.547" classname="1.6 - Login sem preencher o usuário e a senha">
+    </testcase>
+    <testcase name="LOGIN 1.7 - Login com o usuário bloqueado/inativo" time="3.187" classname="1.7 - Login com o usuário bloqueado/inativo">
+    </testcase>
+  </testsuite>
+</testsuites>
